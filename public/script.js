@@ -9,7 +9,7 @@ const stopBtn = document.getElementById('stopBtn');
 const resetBtn = document.getElementById('resetBtn');
 
 // WebSocket connection
-const ws = new WebSocket('wss://server-14eb.onrender.com/');
+const ws = new WebSocket('wss://accepted-rjy3.onrender.com/');
 
 ws.onmessage = (event) => {
     const data = JSON.parse(event.data);
